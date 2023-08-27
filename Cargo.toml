@@ -1,0 +1,12 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rlua = "0.19.4"
+clingo = { version = "0.7.2", features = ["derive", "static-linking"] }
+rand = "0.8.5"
+kiss3d = "0.35.0"
+parry3d = "0.10.0"
+raylib = { version = "3.7" }
